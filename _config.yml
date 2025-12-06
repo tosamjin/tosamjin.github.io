@@ -13,6 +13,9 @@ markdown: kramdown
 highlighter: rouge
 lang: "ko"
 
+# post, collection 리스트에서 썸네일 사용
+teaser: true
+
 collections:
   products:
     output: true
@@ -24,3 +27,8 @@ defaults:
       type: products
     values:
       layout: single
+      show_date: false
+      show_read_time: false
+      author_profile: false
+      related: true
+      teaser: "{{ page.thumbnail }}"
