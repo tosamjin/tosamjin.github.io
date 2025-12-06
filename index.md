@@ -18,8 +18,8 @@ classes: wide
        | where_exp: "p", "p.categories contains g" 
        | sort: "date" 
        | reverse 
-       | slice: 0,3 -%}   {# ← 3개만, 5개로 늘리고 싶으면 0,5 로 바꿔 #}
-
+       | slice: 0,3 -%}   
+  
   {%- if items.size == 0 %}
   <p class="no-items">아직 등록된 상품이 없습니다.</p>
   {%- else %}
