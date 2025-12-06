@@ -1,0 +1,26 @@
+title: "토삼진 스토어"
+description: "네이버 스마트스토어 상품 정리 페이지"
+url: "https://tosamjin.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-include-cache
+
+markdown: kramdown
+highlighter: rouge
+lang: "ko"
+
+collections:
+  products:
+    output: true
+    permalink: /products/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: single
