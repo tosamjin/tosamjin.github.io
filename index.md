@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "토삼진 상품 모음"
+title: "쉿! 비밀이예요"
 permalink: /
 ---
 
