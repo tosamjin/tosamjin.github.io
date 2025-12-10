@@ -8,7 +8,7 @@ classes: wide
 최신 할인정보 및 특가 상품들을 정리한 페이지입니다 😊  
 쉿! 이 가격은 당신만 알고 있으셔야 해요!
 
-{%- assign groups = "가전/PC,패션,식품,가구,etc" | split: "," -%}
+{%- assign groups = "가전/PC,패션,식품,가구,etc,미분류" | split: "," -%}
 
 {%- for g in groups %}
 ### {{ g }}
